@@ -3,6 +3,7 @@ version: '3.8'
 services:
   app:
     image: moviesearch
+    platform: linux/amd64
     container_name: moviesearch
     build:
       context: .
